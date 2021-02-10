@@ -1,0 +1,124 @@
+
+.titulo-principal{
+    font-size: 5rem;
+    grid-column: 2/3;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    letter-spacing: 5px;
+}
+figure{
+    grid-column: 2 / 5;
+    grid-row: 3 / 5;
+}
+.material{
+    width: 50%;
+}
+
+.sobre{
+    grid-column: 4 / 5;
+    grid-row: 2 /6;
+    margin: 5rem 0 0 4rem;
+    line-height: 1.5rem;
+    word-spacing: .1rem;
+    max-width: 500px;
+}
+
+.sobre p{
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+.grupo-titulo{
+    font-size: 4rem;
+    padding: 2rem 0;
+    margin: 5rem 0;
+    grid-column: 1 / 5;
+    grid-row: 6 / 7;
+    color: #fff;
+    text-align: right;
+    padding-right: 3rem;
+    background:rgba(8, 19, 36, 1);
+    opacity: 0;
+}
+.grupo-titulo.ativo {
+    animation: aparece 1s forwards;
+
+}
+@keyframes aparece {
+    from{
+        transform: translate3d(-500px, 0, 0);
+
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+.img-alunos{
+    width: 100%;
+}
+.alunos{   
+    grid-column: 3 / 5;
+    grid-row: 7 / 10;
+    opacity: 0;
+}
+.alunos.ativo{
+    animation: aparece2 1s forwards;
+
+}
+@keyframes aparece2 {
+    from{
+        transform: translate3d(500px, 0, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+.saiba-mais{
+    background-color: #a8272f;
+    padding: 1rem;
+    width: 310px;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2.3rem;
+
+}
+.saiba-mais:hover{
+    transform: scale(1.02);
+}
+.turmas-reduzidas-texto{
+    grid-column: 3 / 3;
+    grid-row: 10 / 11;
+    margin: 5rem 0;
+    line-height: 1.5rem;
+    word-spacing: .1rem;
+    width: 500px;
+    text-align: justify;
+}
+.turmas-reduzidas-texto2{
+    grid-column: 4 / 4;
+    grid-row: 10 / 11;
+    margin: 5rem 3rem;
+    line-height: 1.5rem;
+    word-spacing: .1rem;
+    width: 500px;
+    text-align: justify;
+}
+
+.turmas-reduzidas-texto h4,
+.turmas-reduzidas-texto2 h4{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.turmas-reduzidas-texto p,
+.turmas-reduzidas-texto2 p{
+    text-indent: 2rem;
+}
+

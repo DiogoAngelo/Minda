@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+    <div class="entrada">
+        <figure>
+            <div class="film">
+                <img class="world" src="img/world4.jpg" alt="world">
+            </div>
+        </figure>
+        <h1 class="titulo-entrada">Conquiste o Mundo</h1>
+        <h1 class="slogan">Aprenda Inglês</h1>
+        <button type="submit" class="matricule-se" data-modal="abrir">Matricule-se</button>
+    </div>
+    <div class="grid-container">
+        <header>
+            <nav class="navegacao-inicial">
+                <ul>
+                    <li><a href="#index.html">Home</a></li>
+                    <li><a href="metodologia.html">Metodologia</a></li>
+                    <li><a href="#">Descubra o seu nível</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+
+        </main>
+    </div>
+    <footer>
+        <div class=" rodape mais">
+            <section class="institucional">
+                <h3>Institucional</h3>
+                <ul>
+                    <li><a href="#">Sobre a Mind</a></li>
+                    <li><a href="#">Seja um Franqueado</a></li>
+                    <li><a href="#">Trabalhe Conosco</a></li>
+                    <li><a href="#">Nossas Instalações</a></li>
+                    <li><a href="#">Encontre-nos</a></li>
+                </ul>
+            </section>
+            <section class="estudante">
+                <h3>Área do Estudante</h3>
+                <ul>
+                    <li><a href="#" data-modal="abrir">Faça seu log-in</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Descubra o seu nível</a></li>
+                    <li><a href="#">Qual o melhor curso?</a></li>
+                    <li><a href="#">Eventos</a></li>
+                </ul>
+            </section>
+            <section class="modalidades">
+                <h3>Modalidades</h3>
+                <ul>
+                    <li><a href="#">Inglês Business</a></li>
+                    <li><a href="#">Inglês para viagens</a></li>
+                    <li><a href="#">Curso Regular</a></li>
+                    <li><a href="#">Aulas Particulares</a></li>
+                    <li><a href="#">Aulas à distância</a></li>
+                </ul>
+            </section>
+        </div>
+    </footer>
+    <!-- modal log-in -->
+    <section class="modal-container" data-modal="container">
+        <div class="modal">
+          <button data-modal="fechar" class="fechar">X</button>
+          <form action="">
+            <label for="email">e-mail</label>
+            <input type="email" autocomplete="username" id="email">
+            <label for="senha">senha</label>
+            <input type="password" autocomplete="current-password" id="senha">
+            <button type="submit">Entrar</button>
+          </form>
+        </div>
+      </section>
+
+<script src="js/index.js"></script>
+<script src="js/modal.js"></script>
+</body>

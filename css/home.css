@@ -1,0 +1,75 @@
+
+.film::before{
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 720px;
+    top: 0;
+    left: 0
+}
+.world{
+    object-fit: cover;
+    height: 720px;
+    object-position: 10% 50% ;
+    width: 100%; 
+    
+}
+header{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 82%;
+}
+.titulo-entrada{
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    font-size: 5rem;
+    opacity: 0;
+    animation: entrada 5s forwards;
+    animation-delay: .5s;
+}
+.slogan{
+    color: #fff;
+    font-size: 5rem;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: entrada 3s forwards;
+    animation-delay: 2s; 
+     
+}
+@keyframes entrada{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.matricule-se{
+    background-color: #a8272f;
+    padding: 1rem;
+    width: 310px;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2.3rem;
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    
+
+}
+.matricule-se:hover{
+    transform: scale(1.02);
+}
