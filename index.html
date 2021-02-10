@@ -24,7 +24,7 @@
         </figure>
         <h1 class="titulo-entrada">Conquiste o Mundo</h1>
         <h1 class="slogan">Aprenda Inglês</h1>
-        <button type="submit" class="matricule-se" data-modal="abrir">Matricule-se</button>
+        <button type="submit" class="matricule-se" data-modal="matricula">Matricule-se</button>
     </div>
     <div class="grid-container">
         <header>
@@ -91,6 +91,23 @@
         </div>
       </section>
 
+          <!-- modal matricula -->
+    <section class="modal-container" data-modal="container2">
+        <div class="modal">
+          <button data-modal="fechar2" class="fechar">X</button>
+          <form>
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome">
+            <label for="email2">E-mail</label>
+            <input type="email" id="email2">
+            <label for="tel">Telefone</label>
+            <input type="tel" id="tel">
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+
 <script src="js/index.js"></script>
 <script src="js/modal.js"></script>
+<script src="js/modal_matricula.js"></script>
 </body>
