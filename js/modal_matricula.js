@@ -9,5 +9,12 @@ function abrirMatricula(event){
 function modalFechar(){
     container.classList.remove('ativo');
 }
+function clicaFora(event){
+    if(event.target == this){
+        container.classList.remove('ativo')
+    }
+
+}
 matricula.addEventListener('click', abrirMatricula);
 fechar.addEventListener('click', modalFechar)
+container.addEventListener('click', clicaFora)

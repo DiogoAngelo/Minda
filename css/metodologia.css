@@ -87,7 +87,11 @@ figure{
     display: block;
     margin: 0 auto;
     margin-top: 2.3rem;
+    text-decoration: underline;
 
+}
+.link_externo{
+    color: black;
 }
 .saiba-mais:hover{
     transform: scale(1.02);
